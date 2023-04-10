@@ -1,0 +1,13 @@
+[package]
+name = "parse_history_xml"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dissolve = "0.2.2"
+maplit = "1.0.2"
+quick-xml = "0.28.1"
+serde = { version = "1", features = ["derive"] }
+csv = "1.1"
